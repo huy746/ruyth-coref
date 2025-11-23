@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ruythcoref"
-version = "0.1.0"
+version = "1.0.0"
 description = "A Python library to convert files between txt, csv, json, docx, pdf, xml"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -21,6 +21,11 @@ pandas = ">=1.3.0"
 python-docx = ">=0.8.11"
 PyPDF2 = ">=3.0.0"
 fpdf = ">=1.7.2"
+
+[project.urls]
+Documentation = "https://ruythcore.vercel.app/docs/ruythcoref"
+Homepage = "https://github.com/huy746/ruyth-core"
+"Issue tracker" = "https://github.com/huy746/ruyth-core/issues"
 
 [tool.setuptools.packages.find]
 where = ["ruythcore"]
